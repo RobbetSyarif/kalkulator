@@ -46,6 +46,8 @@ function createButton(line,chr) {
             inp.value += "/";
           }else if(txt == "×"){
             inp.value += "*";
+          }else if(txt == "^"){
+            inp.value +="**";
           }else{
             inp.value += txt;
           }
