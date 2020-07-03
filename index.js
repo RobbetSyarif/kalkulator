@@ -46,7 +46,7 @@ function createButton(line,chr) {
             inp.value += "/";
           }else if(txt == "×"){
             inp.value += "*";
-          }else if(txt == "^"){
+          }else if(txt == "k"){
             inp.value +="**";
           }else{
             inp.value += txt;
@@ -61,4 +61,4 @@ createButton(line1,"C%<÷");
 createButton(line2,"789×");
 createButton(line3,"456-");
 createButton(line4,"123+");
-createButton(line5,"0.^=");
+createButton(line5,"0.k=");
